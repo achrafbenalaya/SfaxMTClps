@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SfaxMTClps.Home" BackgroundColor="White">
+  
+<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+  <StackLayout >
+  <Label Margin="20" Text="Hello And Welcome" TextColor="Blue" FontSize="28" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" ></Label>
+  <Image x:Name="i1" Margin="20" Source="lps.png" VerticalOptions="CenterAndExpand"></Image>
+  <Label x:Name="l1" Margin="20" Text="Ce club a pour but de diffuser et partager la culture de la technologie et de la créativité" VerticalOptions="CenterAndExpand" TextColor="Black" FontSize="26" FontAttributes="Italic"></Label>
+  
+</StackLayout>
+   <StackLayout Margin="20">
+  <Button TextColor="Red" Text="Say HI!" Clicked="Button_OnClicked" BorderRadius="12" BackgroundColor="#3366ff" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+</StackLayout>
+</StackLayout>
+
+
+
+
+</ContentPage>
